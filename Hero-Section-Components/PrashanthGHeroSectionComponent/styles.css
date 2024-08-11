@@ -1,0 +1,104 @@
+*{
+    padding: 10px;
+    margin:10px;
+}
+.about{
+    background-color: darkcyan;
+    color:yellow;
+    font-size: x-large;
+    margin:20px;
+    padding:20px;
+    text-align: justify;
+}
+
+.logo{
+    height:120px;
+    width:1280px;
+}
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: url('./images/back.png') no-repeat center center fixed;
+    background-size: cover;
+    
+    
+}
+
+.container{
+    width: 1280px;
+    align-content: center;
+    position: relative;
+    justify-content: center;
+    padding:1%;
+    border:10px solid rgb(231, 136, 3);
+    border-radius: 25px;;
+    animation: mymove 2s infinite;
+    
+}
+@keyframes mymove {
+    50% {border-color: rgb(0, 34, 255);}
+  }
+
+.navbar{
+    width: 100%;
+   
+}
+
+
+.cards{
+    display: flex;
+    
+    flex-direction: column;
+    gap:50px;
+    height:350px;
+    width: 400px;
+    
+}
+.images{
+    display: flex;
+}
+
+.heading{
+    background-color: darkcyan;
+    font-size: xx-large;
+    font-weight: 400;
+    color:yellow;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.img{
+    position: relative;
+    
+    height:250px;
+    width:350px;
+    
+}
+span{
+    padding: 0%;
+    margin:0%;
+}
+.button{
+    margin:-50px 0px 10px 10px;
+    font-size: xx-large;
+    width:300px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    
+    color:darkblue
+
+}
+.button:hover{
+    color: red;
+    background-color: yellow;
+}
+
+.main{
+    float: right;
+    
+    border-radius: 50px;
+}
